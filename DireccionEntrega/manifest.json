@@ -1,0 +1,14 @@
+{
+    "name": "CDireccionEntrega",
+    "description": "Direccones de entrega.",
+    "author": "Christian Arellano",
+    "php": [
+        ">=7.2"
+    ],
+    "acceptableVersions": [
+        ">=7.3.0"
+    ],
+    "version": "1.0.1",
+    "skipBackup": true,
+    "releaseDate": "2024-07-26"
+}

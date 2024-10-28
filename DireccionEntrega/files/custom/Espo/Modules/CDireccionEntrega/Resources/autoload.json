@@ -1,0 +1,5 @@
+{
+	"autoloadFileList": [
+        "custom/Espo/Modules/CDireccionEntrega/vendor/autoload.php"
+    ]
+}

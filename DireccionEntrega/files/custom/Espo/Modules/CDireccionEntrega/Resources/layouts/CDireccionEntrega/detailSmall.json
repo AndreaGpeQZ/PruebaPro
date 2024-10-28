@@ -1,0 +1,21 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "accounts"
+                }
+            ],
+            [
+                {
+                    "name": "direccion"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

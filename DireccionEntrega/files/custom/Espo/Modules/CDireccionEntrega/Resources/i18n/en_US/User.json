@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "accounts1": "Cuentas asignadas",
+        "quotes1": "Quotes",
+        "lead": "Lead",
+        "pedidos": "Pedidos",
+        "pedidos1": "Pedidos1",
+        "servicios": "Servicios",
+        "serviciosAssigned": "Servicios",
+        "quoters": "Quoters",
+        "quoter1": "Quotes"
+    },
+    "links": {
+        "accounts1": "Cuentas asignadas",
+        "quotes1": "Quotes",
+        "lead": "Lead",
+        "pedidos": "Pedidos",
+        "pedidos1": "Pedidos1",
+        "servicios": "Servicios",
+        "serviciosAssigned": "Servicios",
+        "quoters": "Quoters",
+        "quoter1": "Quotes"
+    }
+}

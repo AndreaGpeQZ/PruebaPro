@@ -1,0 +1,20 @@
+{
+    "labels": {
+        "Create CDireccionEntrega": "Crear Dirección de Entrega"
+    },
+    "fields": {
+        "direccion": "Direccion",
+        "direccionStreet": "Direccion Calle",
+        "direccionCity": "Direccion Ciudad",
+        "direccionState": "Direccion Estado",
+        "direccionCountry": "Direccion País",
+        "direccionPostalCode": "Direccion Código Postal",
+        "direccionMap": "Direccion Mapa",
+        "accounts": "Cuentas",
+        "solicitarCotizacions": "Solicitar Cotizacions"
+    },
+    "links": {
+        "accounts": "Cuentas",
+        "solicitarCotizacions": "Solicitar Cotizacions"
+    }
+}

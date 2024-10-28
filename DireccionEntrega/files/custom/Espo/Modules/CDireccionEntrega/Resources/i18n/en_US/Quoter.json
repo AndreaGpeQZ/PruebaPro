@@ -1,0 +1,45 @@
+{
+    "fields": {
+        "amount": "Total MXN",
+        "amountCurrency": "Total MXN (Moneda)",
+        "amountConverted": "Total MXN (Convertido)",
+        "amountUSD": "Total USD",
+        "amountUSDCurrency": "Total USD (Moneda)",
+        "amountUSDConverted": "Total USD (Convertido)",
+        "assignedUsers": "Usuarios Asignados",
+        "descargadirecta": "Descarga Directa",
+        "estadoatc": "Estado",
+        "ganado": "Ganado MXN",
+        "ganadoCurrency": "Ganado MXN (Moneda)",
+        "ganadoConverted": "Ganado MXN (Convertido)",
+        "ganadoUSD": "Ganado USD",
+        "ganadoUSDCurrency": "Ganado USD (Moneda)",
+        "ganadoUSDConverted": "Ganado USD (Convertido)",
+        "pdf": "Abrir archivo PDF",
+        "pedido": "Pedido",
+        "pedido1": "Pedido1",
+        "quoteNumber": "No. de cotización",
+        "quoterId": "UUID de Quoter",
+        "solicitudNumber": "No. de Solicitud",
+        "webview": "Webview"
+    },
+    "links": {
+        "assignedUsers": "Usuarios Asignados",
+        "pedido1": "Pedido1"
+    },
+    "options": {
+        "estadoatc": {
+            "Sin definir": "Sin definir",
+            "Pendiente": "Pendiente",
+            "Ganado": "Ganado",
+            "Perdido": "Perdido"
+        },
+        "status": {
+            "pending": "Pendiente",
+            "accepted": "Aceptado",
+            "ordered": "Pedido",
+            "fulfilled": "Entregado",
+            "lost": "Perdido"
+        }
+    }
+}

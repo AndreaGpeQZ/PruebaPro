@@ -1,0 +1,39 @@
+{
+    "fields": {
+        "address": "Address",
+        "title": "Titulo",
+        "website": "Sito Web",
+        "accountName": "Nombre de Cuenta",
+        "status": "Estátus",
+        "source": "Fuente",
+        "industry": "Industria"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "servicios": "Servicios"
+    },
+    "labels": {
+        "Create BaseDeDatos": "Create Registro"
+    },
+    "options": {
+        "status": {
+            "New": "Nuevo",
+            "Assigned": "Asignado",
+            "In process": "En Proceso"
+        },
+        "source": {
+            "": "",
+            "Call": "Llamada",
+            "Email": "Correo electrónico",
+            "Existing Customer": "Cliente Existente",
+            "Partner": "Socio",
+            "Public Relations": "Relaciones Públicas",
+            "Web Site": "Sitio Web",
+            "Campaing": "Campaña",
+            "Other": "Otro"
+        },
+        "industry": []
+    }
+}

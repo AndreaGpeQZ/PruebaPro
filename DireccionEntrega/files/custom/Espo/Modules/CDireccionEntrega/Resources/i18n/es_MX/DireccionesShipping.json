@@ -1,0 +1,22 @@
+{
+    "labels": {
+        "Create DireccionesShipping": "Crear DireccionesShipping"
+    },
+    "fields": {
+        "direccionShipping": "DireccionShipping",
+        "direccionShippingStreet": "DireccionShipping Calle",
+        "direccionShippingCity": "DireccionShipping Ciudad",
+        "direccionShippingState": "DireccionShipping Estado",
+        "direccionShippingCountry": "DireccionShipping País",
+        "direccionShippingPostalCode": "DireccionShipping Código Postal",
+        "direccionShippingMap": "DireccionShipping Mapa",
+        "contactoShipping": "Contacto Shipping",
+        "logisticas": "Logisticas",
+        "direccionEntrega": "Dirección de Entrega"
+    },
+    "links": {
+        "contactoShipping": "Contacto Shipping",
+        "logisticas": "Logisticas",
+        "direccionEntrega": "Dirección de Entrega"
+    }
+}

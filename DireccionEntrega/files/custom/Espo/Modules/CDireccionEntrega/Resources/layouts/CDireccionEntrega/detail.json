@@ -1,0 +1,38 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "accounts"
+                },
+                {
+                    "name": "diaEntrega"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "comienzoHorarioEntrega"
+                },
+                {
+                    "name": "finalHorarioEntrega"
+                }
+            ],
+            [
+                {
+                    "name": "direccion"
+                },
+                {
+                    "name": "horaInicioComida"
+                },
+                {
+                    "name": "horaFinalizacionComida"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

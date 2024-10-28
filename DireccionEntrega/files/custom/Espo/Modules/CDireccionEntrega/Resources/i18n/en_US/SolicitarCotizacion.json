@@ -1,0 +1,83 @@
+{
+    "fields": {
+        "businessName": "Razón Social",
+        "tituloCotizacion": "Título de Cotización",
+        "fechaCompra": "Fecha Estimada de Compra",
+        "tipoMoneda": "Tipo de Moneda",
+        "locacionFactura": "Locación Factura",
+        "idioma": "Idioma",
+        "estadoCliente": "Estado del Cliente",
+        "cliente": "Cliente",
+        "razonSocial": "Razón Social",
+        "contactos": "Contactos",
+        "idsolcot": "Idsolcot",
+        "parent": "Parent",
+        "contacts": "Contacts",
+        "prioCotizacion": "Prioridad de Cotizacion",
+        "recomendCoti": "Recomendaciones para ganar cotización",
+        "recotecnicas": "Recomendaciones técnicas de producto",
+        "cotizacionReferencia": "Cotización de Referencia (Opcional)",
+        "cotiPortal": "Cotizacion a Portal",
+        "ivaRequerido": "IVA Requerido",
+        "correoclientJson": "CorreoclientJson",
+        "correoconsultorjson": "Correoconsultorjson",
+        "account": "Account",
+        "contact": "Contact",
+        "creadonamejson": "Creado por",
+        "emailsolicitadopor": "Emailsolicitadopor",
+        "cDireccionEntrega": "Direccion Entrega",
+        "requerimientoDelCliente": "Requerimiento del Cliente"
+    },
+    "links": {
+        "deliveryAddress": "deliveryAddress",
+        "businessName": "businessName",
+        "client": "clients",
+        "clients": "Clients",
+        "cliente": "Cliente",
+        "razonSocial": "Razón Social",
+        "pruebaEnlace": "Prueba Enlace",
+        "contactos": "Contactos",
+        "parent": "Parent",
+        "contacts": "Contacts",
+        "account": "Account",
+        "contact": "Contact",
+        "cDireccionEntrega": "Direccion Entrega"
+    },
+    "labels": {
+        "Create SolicitarCotizacion": "Crear Solicitud de Cotización"
+    },
+    "options": {
+        "tipoMoneda": {
+            "Moneda": "Moneda",
+            "USD": "USD",
+            "MXN": "MXN"
+        },
+        "locacionFactura": {
+            "Locación": "Locación",
+            "México": "México",
+            "Estados Unidos": "Estados Unidos"
+        },
+        "idioma": {
+            "Idioma": "Idioma",
+            "Español": "Español",
+            "Inglés": "Inglés"
+        },
+        "estadoCliente": {
+            "Activo": "Activo",
+            "Reactivación": "Reactivación",
+            "Nuevo": "Nuevo"
+        },
+        "prioCotizacion": {
+            "1": "Baja",
+            "2": "Normal",
+            "3": "Alta"
+        },
+        "ivaRequerido": {
+            "true": "8%",
+            "false": "16%"
+        }
+    },
+    "tooltips": {
+        "locacionFactura": "Locación"
+    }
+}

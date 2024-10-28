@@ -1,0 +1,39 @@
+{
+    "labels": {
+        "Create Servicio": "Crear Taller de Servicio"
+    },
+    "fields": {
+        "user": "User",
+        "email": "Email",
+        "parent": "Origen",
+        "status": "Estatus",
+        "prioridad": "Prioridad",
+        "adjuntos": "Adjuntos",
+        "dateEnd": "Fecha de Vencimiento",
+        "dateStart": "Fecha de Inicio",
+        "dateCompleted": "Fecha de completado",
+        "name": "Título",
+        "assignedUsers": "Usuarios Asignados"
+    },
+    "links": {
+        "user": "User",
+        "email": "Email",
+        "parent": "Parent",
+        "assignedUsers": "Usuarios Asignados"
+    },
+    "options": {
+        "status": {
+            "Sin Empezar": "Sin Empezar",
+            "Comenzada": "Comenzado",
+            "Cancelada": "Cancelado",
+            "Diferida": "Diferida",
+            "Completado": "Completado"
+        },
+        "prioridad": {
+            "Baja": "Baja",
+            "Normal": "Normal",
+            "Alta": "Alta",
+            "Apremiante": "Apremiante"
+        }
+    }
+}

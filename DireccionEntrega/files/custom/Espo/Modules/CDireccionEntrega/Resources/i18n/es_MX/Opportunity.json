@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "leads": "Referencias",
+        "leadSource": "Orígen de Oportunidad",
+        "pedido": "Pedido"
+    },
+    "links": {
+        "leads": "Leads",
+        "pedido": "Pedido",
+        "servicios": "Servicios"
+    }
+}

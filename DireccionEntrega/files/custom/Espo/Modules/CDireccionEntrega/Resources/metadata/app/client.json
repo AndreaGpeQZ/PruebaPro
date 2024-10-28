@@ -1,0 +1,7 @@
+{
+	"favicon": "client/custom/img/favicondigi-32x32.ico",
+	"favicon196": "client/custom/img/favicondigi-192x192.ico",
+	"cssList": [
+		"client/custom/modules/c-direccion-entrega/css/cDireccionEntrega.css"
+	]
+}

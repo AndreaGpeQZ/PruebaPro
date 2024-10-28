@@ -1,0 +1,1 @@
+Asignado a usted: [{{entityType}}] {{name}}

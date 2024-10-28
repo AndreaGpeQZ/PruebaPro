@@ -1,0 +1,21 @@
+{
+    "scopeNames": {
+        "Lead": "Prospecto",
+        "Pedido": "Pedido",
+        "Servicio": "Taller de Servicio",
+        "ProductBrand": "Marca de Productos",
+        "Product": "Producto",
+        "Warehouse": "Almacén",
+        "SolicitarCotizacion": "Solicitud de Cotización"
+    },
+    "scopeNamesPlural": {
+        "Lead": "Prospectos",
+        "Facturas": "Facturas",
+        "Servicio": "Taller de Servicios",
+        "ProductBrand": "Marcas de Productos",
+        "Product": "Productos",
+        "Warehouse": "Almacenes",
+        "CDireccionEntrega": "Direcciones de Entregas",
+        "SolicitarCotizacion": "Solicitudes de Cotizaciones"
+    }
+}

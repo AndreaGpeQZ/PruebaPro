@@ -1,0 +1,91 @@
+{
+    "fields": {
+        "account": "Account",
+        "contact": "Contacto Pagos",
+        "tipoMoneda": "Moneda",
+        "usoCfdi": "Uso de CFDI",
+        "metodoPago": "Metodo de Pago",
+        "totalOrden": "Total de Orden",
+        "iva": "IVA %",
+        "tipoCambio": "Tipo de Cambio",
+        "formaPago": "Forma de Pago",
+        "fechaRestringida": "Tiene Fecha Restringida de Facturación",
+        "fechaRestringidaFact": "Fecha Restringida de Facturación",
+        "tieneInstruccion": "¿Instrucción Especial?",
+        "instruccionEspecial": "InstruccionEspecial",
+        "contacts1": "Enviar Factura a",
+        "contactoPagos": "Contacto (Pagos)",
+        "terminosPago": "Terminos de Pago",
+        "pedido": "Pedido",
+        "emailContactoPagos": "Correo Electrónico",
+        "facturarA": "ParentFacturarA",
+        "emails": "Emails",
+        "correosFactura": "Correos Factura",
+        "enviarFacturaA": "Enviar Factura A"
+    },
+    "links": {
+        "account": "Account",
+        "contact": "Contacto Pagos",
+        "contacts1": "Enviar Factura a",
+        "contactoPagos": "Contacto (Pagos)",
+        "pedido": "Pedido",
+        "facturarA": "ParentFacturarA",
+        "emails": "Emails",
+        "correosFactura": "Correos Factura"
+    },
+    "labels": {
+        "Create Facturas": "Create Facturas"
+    },
+    "options": {
+        "tipoMoneda": {
+            "USD": "USD",
+            "MXN": "MXN"
+        },
+        "usoCfdi": {
+            "G01.- Adquisición de mercancias.": "G01.- Adquisición de mercancias.",
+            "G02.- Devoluciones, descuentos o bonificaciones.": "G02.- Devoluciones, descuentos o bonificaciones.",
+            "G03.- Gastos en general.": "G03.- Gastos en general.",
+            "I01.- Construcciones.": "I01.- Construcciones.",
+            "I02.- Mobilario y equipo de oficina por inversiones.": "I02.- Mobilario y equipo de oficina por inversiones.",
+            "I03.- Equipo de transporte.": "I03.- Equipo de transporte.",
+            "I04.- Equipo de computo y accesorios.": "I04.- Equipo de computo y accesorios.",
+            "I05.- Dados, troqueles, moldes, matrices y herramental.": "I05.- Dados, troqueles, moldes, matrices y herramental.",
+            "I06.- Comunicaciones telefónicas.": "I06.- Comunicaciones telefónicas.",
+            "I07.- Comunicaciones satelitales.": "I07.- Comunicaciones satelitales.",
+            "I08.- Otra maquinaria y equipo.": "I08.- Otra maquinaria y equipo.",
+            "D01.- Honorarios médicos, dentales y gastos hospitalarios.": "D01.- Honorarios médicos, dentales y gastos hospitalarios.",
+            "D01.- Gastos médicos por incapacidad o discapacidad.": "D01.- Gastos médicos por incapacidad o discapacidad.",
+            "D03.- Gastos funerales.": "D03.- Gastos funerales.",
+            "D04.- Donativos.": "D04.- Donativos.",
+            "D05.- Intereses reales efectivamente pagados por créditos hipotecarios (casa habitación).": "D05.- Intereses reales efectivamente pagados por créditos hipotecarios (casa habitación).",
+            "D06.- Aportaciones voluntarias al SAR.": "D06.- Aportaciones voluntarias al SAR.",
+            "D07.- Primas por seguros de gastos médicos.": "D07.- Primas por seguros de gastos médicos.",
+            "D08.- Gastos de transportación escolar obligatoria.": "D08.- Gastos de transportación escolar obligatoria.",
+            "D09.- Depósitos en cuentas para el ahorro, primas que tengan como base planes de pensiones.": "D09.- Depósitos en cuentas para el ahorro, primas que tengan como base planes de pensiones.",
+            "D10.- Pagos por servicios educativos (colegiaturas).": "D10.- Pagos por servicios educativos (colegiaturas).",
+            "P01.- Por definir.": "P01.- Por definir."
+        },
+        "metodoPago": {
+            "PUE": "PUE",
+            "Transferencia": "Transferencia"
+        },
+        "iva": {
+            "16%": "16%",
+            "8%": "8%"
+        },
+        "formaPago": {
+            "Transferencia Bancaria": "Transferencia Bancaria",
+            "Tarjeta de Crédito": "Tarjeta de Crédito",
+            "Efectivo": "Efectivo",
+            "Cheque": "Cheque"
+        },
+        "facturarA": {
+            "@": "@",
+            ".com": ".com"
+        },
+        "enviarFacturaA": []
+    },
+    "layouts": {
+        "facturasAsignadas": "Facturas Asignadas"
+    }
+}

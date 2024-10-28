@@ -1,0 +1,26 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": "#35c28f",
+    "iconClass": "fas fa-map-marker-alt",
+    "kanbanViewMode": false,
+    "relationshipPanels": {
+        "accounts": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "solicitarCotizacions": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "invoicesAddress": {
+            "layout": null
+        }
+    },
+    "views":{
+        "detail": "c-direccion-entrega:views/CDireccionEntrega/detail",
+        "edit": "c-direccion-entrega:views/CDireccionEntrega/edit"
+    }
+}

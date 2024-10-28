@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "leads": "Referencias",
+        "pedido": "Pedido"
+    },
+    "links": {
+        "leads": "Leads",
+        "pedido": "Pedido",
+        "servicios": "Servicios"
+    }
+}

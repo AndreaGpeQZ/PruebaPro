@@ -1,0 +1,1 @@
+Asignado a ti: [{{entityType}}] {{name}}

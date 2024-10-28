@@ -1,0 +1,262 @@
+[data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="direccion"]{
+    width: 400px;
+}
+
+[data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="name"]{
+    width: 400px;
+}
+
+/* MODIFICAMOS EL DISEÑO DE LA HORA PARA NO MOSTRAR CALENDARIO */
+[data-scope="CDireccionEntrega"] div[data-name="comienzoHorarioEntrega"] .input-group .main-element.form-control,
+[data-scope="CDireccionEntrega"] div[data-name="comienzoHorarioEntrega"] .input-group span.input-group-btn button.btn.btn-default.btn-icon.date-picker-btn,
+[data-scope="CDireccionEntrega"] div[data-name="finalHorarioEntrega"] .input-group .main-element.form-control,
+[data-scope="CDireccionEntrega"] div[data-name="finalHorarioEntrega"] .input-group span.input-group-btn button.btn.btn-default.btn-icon.date-picker-btn,
+[data-scope="CDireccionEntrega"] div[data-name="horaInicioComida"] .input-group .main-element.form-control,
+[data-scope="CDireccionEntrega"] div[data-name="horaInicioComida"] .input-group span.input-group-btn button.btn.btn-default.btn-icon.date-picker-btn,
+[data-scope="CDireccionEntrega"] div[data-name="horaFinalizacionComida"] .input-group .main-element.form-control,
+[data-scope="CDireccionEntrega"] div[data-name="horaFinalizacionComida"] .input-group span.input-group-btn button.btn.btn-default.btn-icon.date-picker-btn {
+    display: none;
+}
+
+
+/* DISEÑO DE HORA EN EL COMIENZO DE HORARIO DE ENTREGA */
+[data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="comienzoHorarioEntrega"]  {
+    width: 250px;
+    margin-left: 15px;
+}
+
+[data-name="comienzoHorarioEntrega"] .control-label .label-text {
+    margin-left:125px; /* Ajusta el valor según lo que necesites */
+}
+
+/* DISEÑO DE HORA EN EL FINAL DE HORARIO DE ENTREGA */
+[data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="finalHorarioEntrega"] {
+    width: 250px;
+    margin-left: -50px;
+}
+
+[data-name="finalHorarioEntrega"] .control-label .label-text {
+    margin-left:125px; /* Ajusta el valor según lo que necesites */
+}
+
+
+/* DISEÑO DE HORA EN EL INICIO DE HORARIO DE COMIDA */
+[data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="horaInicioComida"] {
+    width: 250px;
+    margin-left: 15px;
+}
+
+/* Selecciona el span dentro del label del div con data-name="comienzoHorarioEntrega" */
+[data-name="horaInicioComida"] .control-label .label-text {
+    margin-left: 125px; /* Ajusta el valor según lo que necesites */
+}
+
+[data-scope="CDireccionEntrega"] div[data-name="horaInicioComida"] {
+    bottom: 0px;
+}
+
+/* DISEÑO DE HORA EN EL FINAL DE HORARIO DE COMIDA */
+[data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="horaFinalizacionComida"] {
+    width: 250px;
+    margin-left: -50px;
+}
+
+[data-name="horaFinalizacionComida"] .control-label .label-text {
+    margin-left:125px; /* Ajusta el valor según lo que necesites */
+}
+
+[data-scope="CDireccionEntrega"] div[data-name="horaFinalizacionComida"] {
+    bottom: 0px;
+}
+
+
+.modal-container .dialog.dialog-record.modal.in .modal-content  .panel-body.panel-body-form .row:nth-of-type(2) [data-name="comienzoHorarioEntrega"],
+.modal-container .dialog.dialog-record.modal.in .modal-content  .panel-body.panel-body-form .row:nth-of-type(2) [data-name="finalHorarioEntrega"],
+.modal-container .dialog.dialog-record.modal.in .modal-content  .panel-body.panel-body-form .row:nth-of-type(3) [data-name="horaInicioComida"],
+.modal-container .dialog.dialog-record.modal.in .modal-content  .panel-body.panel-body-form .row:nth-of-type(3) [data-name="horaFinalizacionComida"]{
+    margin-left: -30px;
+}
+
+.modal-container .dialog.dialog-record.modal.in .modal-content  .panel-body.panel-body-form .row:nth-of-type(2) [data-name="comienzoHorarioEntrega"] .control-label,
+.modal-container .dialog.dialog-record.modal.in .modal-content  .panel-body.panel-body-form .row:nth-of-type(2) [data-name="finalHorarioEntrega"] .control-label,
+.modal-container .dialog.dialog-record.modal.in .modal-content  .panel-body.panel-body-form .row:nth-of-type(3) [data-name="horaInicioComida"] .control-label,
+.modal-container .dialog.dialog-record.modal.in .modal-content  .panel-body.panel-body-form .row:nth-of-type(3) [data-name="horaFinalizacionComida"] .control-label{
+    margin-left: -20px;
+}
+
+
+@media (max-width: 1280px) {
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="direccion"]{
+        width: 310px;
+        bottom: 26px;
+    }
+
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="name"]{
+        width: 310px;
+    }
+
+    /* DISEÑO DE HORA EN EL COMIENZO DE HORARIO DE ENTREGA */
+    [data-scope="CDireccionEntrega"]  [data-name="comienzoHorarioEntrega"] .input-group {
+        top: 2px;
+    }
+
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="comienzoHorarioEntrega"]  {
+        width: 250px;
+        margin-left: -20px;
+    }
+
+    [data-name="comienzoHorarioEntrega"] .control-label .label-text {
+        position: absolute;
+        bottom: 40px;
+        text-align: center;
+    }
+
+    /* DISEÑO DE HORA EN EL FINAL DE HORARIO DE ENTREGA */
+    [data-scope="CDireccionEntrega"] [data-name="finalHorarioEntrega"] .input-group{
+        top: 2px;
+    }
+
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="finalHorarioEntrega"] {
+        width: 250px;
+        margin-left: -80px;
+    }
+
+    [data-name="finalHorarioEntrega"] .control-label .label-text {
+        position: absolute;
+        bottom: 40px;
+        margin-left:125px;
+        text-align: center;
+    }
+
+
+    [data-scope="CDireccionEntrega"] .panel-body.panel-body-form  .row:nth-of-type(2) .horarioComida{
+        display:inline ;
+        margin-left: 100px;
+        padding-left: 60px;
+    }
+
+
+    /* DISEÑO DE HORA EN EL INICIO DE HORARIO DE COMIDA */
+    [data-scope="CDireccionEntrega"]  [data-name="horaInicioComida"] .input-group {
+        top: 2px;
+    }
+
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="horaInicioComida"]  {
+        width: 250px;
+        margin-left: -20px;
+    }
+
+    [data-name="horaInicioComida"] .control-label .label-text {
+        position: absolute;
+        bottom: 40px;
+        text-align: center;
+    }
+
+
+    /* DISEÑO DE HORA EN EL FINAL DE HORARIO DE COMIDA */
+    [data-scope="CDireccionEntrega"] [data-name="horaFinalizacionComida"] .input-group{
+        top: 2px;
+    }
+
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="horaFinalizacionComida"] {
+        width: 250px;
+        margin-left: -80px;
+    }
+
+    [data-name="horaFinalizacionComida"] .control-label .label-text {
+        position: absolute;
+        bottom: 40px;
+        margin-left:125px;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 1079px) {
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="direccion"]{
+        width: 250px;
+        bottom: 26px;
+    }
+
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="name"]{
+        width: 250px;
+    }
+
+    /* DISEÑO DE HORA EN EL COMIENZO DE HORARIO DE ENTREGA */
+    [data-scope="CDireccionEntrega"]  [data-name="comienzoHorarioEntrega"] .input-group {
+        top: 2px;
+    }
+
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="comienzoHorarioEntrega"]  {
+        width: 250px;
+        margin-left: -35px;
+    }
+
+    [data-name="comienzoHorarioEntrega"] .control-label .label-text {
+        width: 150px;
+        position: absolute;
+        bottom: 40px;
+        text-align: center;
+        margin-left: 105px;
+    }
+
+    /* DISEÑO DE HORA EN EL FINAL DE HORARIO DE ENTREGA */
+    [data-scope="CDireccionEntrega"] [data-name="finalHorarioEntrega"] .input-group{
+        top: 2px;
+    }
+
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="finalHorarioEntrega"] {
+        width: 250px;
+        margin-left: -80px;
+    }
+
+    [data-name="finalHorarioEntrega"] .control-label .label-text {
+        position: absolute;
+        bottom: 40px;
+        margin-left:125px;
+        text-align: center;
+    }
+
+
+    [data-scope="CDireccionEntrega"] .panel-body.panel-body-form  .row:nth-of-type(2) .horarioComida{
+        display:inline ;
+        padding-left: 0px;
+    }
+
+    /* DISEÑO DE HORA EN EL INICIO DE HORARIO DE COMIDA */
+    [data-scope="CDireccionEntrega"]  [data-name="horaInicioComida"] .input-group {
+        top: 2px;
+    }
+
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="horaInicioComida"]  {
+        width: 250px;
+        margin-left: -35px;
+    }
+
+    [data-name="horaInicioComida"] .control-label .label-text {
+        width: 150px;
+        position: absolute;
+        bottom: 40px;
+        text-align: center;
+        margin-left: 105px;
+    }
+
+
+    /* DISEÑO DE HORA EN EL FINAL DE HORARIO DE COMIDA */
+    [data-scope="CDireccionEntrega"] [data-name="horaFinalizacionComida"] .input-group{
+        top: 2px;
+    }
+
+    [data-scope="CDireccionEntrega"] .cell.col-sm-4.form-group [data-name="horaFinalizacionComida"] {
+        width: 250px;
+        margin-left: -80px;
+    }
+
+    [data-name="horaFinalizacionComida"] .control-label .label-text {
+        position: absolute;
+        bottom: 40px;
+        margin-left:125px;
+        text-align: center;
+    }
+}

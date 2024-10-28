@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "assignedUsers": "Usuarios Asignados",
+        "pedidos": "Pedidos",
+        "facturases": "Cuenta (Razón Social)",
+        "razonSocial": "Razón Social",
+        "cliente": "Cliente",
+        "pruebaEnlace": "Prueba Enlace",
+        "solicitarCotizacions": "Solicitar Cotizacions",
+        "cCDireccionEntregas": "Direcciones de  Entrega"
+    },
+    "links": {
+        "assignedUsers": "Usuarios Asignados",
+        "pedidos": "Pedidos",
+        "facturases": "Cuenta (Razón Social)",
+        "servicios": "Servicios",
+        "razonSocial": "Razón Social",
+        "cliente": "Cliente",
+        "pruebaEnlace": "Prueba Enlace",
+        "solicitarCotizacions": "Solicitar Cotizacions",
+        "cCDireccionEntregas": "Direcciones de  Entrega"
+    }
+}

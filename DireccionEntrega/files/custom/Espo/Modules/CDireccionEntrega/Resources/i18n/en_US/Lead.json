@@ -1,0 +1,31 @@
+{
+    "fields": {
+        "giroEmpresarial": "Giro Empresarial",
+        "subgiro": "Subgiro",
+        "otroGiro": "Otro Giro",
+        "user": "User",
+        "opportunity": "Opportunity",
+        "emailP": "Correo Electrónico Principal",
+        "phoneP": "Télefono Principal",
+        "telefonosPrincipales": "Telefonos Principales",
+        "contactoAdicional": "Contacto Adicional"
+    },
+    "options": {
+        "giroEmpresarial": {
+            "Comercio": "Comercio",
+            "Maquiladora": "Maquiladora",
+            "Gobierno": "Gobierno",
+            "Médica": "Médica",
+            "Educación": "Educación",
+            "Otro": "Otro",
+            "Industrial": "Industrial",
+            "Servicios": "Servicios"
+        },
+        "telefonosPrincipales": []
+    },
+    "links": {
+        "user": "User",
+        "opportunity": "Opportunity",
+        "servicios": "Servicios"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "labels": {
+        "Create Logistica": "Crear Envio"
+    },
+    "fields": {
+        "contactoShipping": "Contacto Shipping",
+        "diasEntrega": "Dias de Entrega",
+        "entregaParcial": "Acepta Entregas Parciales",
+        "fechaDeseada": "Fecha Deseada",
+        "pedido": "Pedido",
+        "direccionesShipping": "Direcciones Shipping",
+        "docEntrega": "¿Requiere Documentos para entrega?",
+        "ordenCompra": "Orden de Compra",
+        "permisoDeAcceso": "Permiso de Acceso",
+        "factura": "Factura",
+        "deliveryNote": "Delivery Note",
+        "instruccionesEntrega": "¿Requiere Instrucciones de entrega?",
+        "describirInsEntrega": "Describir instrucciones de entrega",
+        "tiempoEntrega": "Tiempo de Entrega",
+        "otroTiempoEntrega": "Otro Tiempo de Entrega",
+        "telefonoShipping": "Telefono",
+        "correoShipping": "Email"
+    },
+    "links": {
+        "contactoShipping": "Contacto Shipping",
+        "pedido": "Pedido",
+        "direccionesShipping": "Direcciones Shipping"
+    },
+    "options": {
+        "tiempoEntrega": {
+            "1 día": "1 día",
+            "1 a 3 días": "1 a 3 días",
+            "1 a 7 días": "1 a 7 días",
+            "1 a 12 días": "1 a 12 días",
+            "3 a 7 días": "3 a 7 días",
+            "7 a 12 días": "7 a 12 días",
+            "Otro": "Otro"
+        }
+    }
+}

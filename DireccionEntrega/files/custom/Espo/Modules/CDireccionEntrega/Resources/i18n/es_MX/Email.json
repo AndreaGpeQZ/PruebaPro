@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "facturas": "Facturas",
+        "facturarA": "Parent Another",
+        "facturases": "Facturases",
+        "servicios": "Servicios"
+    },
+    "links": {
+        "facturas": "Facturas",
+        "facturarA": "Parent Another",
+        "facturases": "Facturases",
+        "servicios": "Servicios"
+    }
+}

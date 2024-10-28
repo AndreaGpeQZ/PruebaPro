@@ -1,0 +1,6 @@
+{
+    "fields": {
+        "status": "Estatus",
+        "parent": "Origen"
+    }
+}

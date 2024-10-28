@@ -1,0 +1,26 @@
+{
+    "scopeNames": {
+        "BaseDeDatos": "Registro",
+        "Pedido": "Pedido",
+        "Facturas": "Facturas",
+        "ContactoPagos": "Contacto Pagos",
+        "ContactoShipping": "Contacto Shipping",
+        "Logistica": "Envio",
+        "DireccionesShipping": "DireccionesShipping",
+        "Servicio": "Taller de Servicio",
+        "SolicitarCotizacion": "Solicitud de Cotización",
+        "CDireccionEntrega": "Dirección de Entrega"
+    },
+    "scopeNamesPlural": {
+        "BaseDeDatos": "Base de Datos",
+        "Pedido": "Pedidos",
+        "Facturas": "Facturas",
+        "ContactoPagos": "Contacto Pagos",
+        "ContactoShipping": "Contacto Shippings",
+        "Logistica": "Envios",
+        "DireccionesShipping": "DireccionesShippings",
+        "Servicio": "Taller de Servicios",
+        "SolicitarCotizacion": "Solicitudes de Cotizaciones",
+        "CDireccionEntrega": "Direcciones de Entregas"
+    }
+}

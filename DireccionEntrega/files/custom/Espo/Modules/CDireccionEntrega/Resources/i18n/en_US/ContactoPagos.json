@@ -1,0 +1,17 @@
+{
+    "fields": {
+        "address": "Address",
+        "terminosPago": "Terminos de Pago",
+        "facturas": "Facturas"
+    },
+    "links": {
+        "meetings": "Meetings",
+        "calls": "Calls",
+        "tasks": "Tasks",
+        "facturas": "Facturas",
+        "servicios": "Servicios"
+    },
+    "labels": {
+        "Create ContactoPagos": "Create Contacto Pagos"
+    }
+}

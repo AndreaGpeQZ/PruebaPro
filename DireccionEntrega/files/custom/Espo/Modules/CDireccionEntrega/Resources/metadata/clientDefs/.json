@@ -1,0 +1,16 @@
+{
+    "relationshipPanels": {
+        "factura": {
+            "layout": null
+        },
+        "emailsAnother": {
+            "layout": null
+        },
+        "servicios": {
+            "layout": null
+        },
+        "solicitarCotizacions": {
+            "layout": null
+        }
+    }
+}

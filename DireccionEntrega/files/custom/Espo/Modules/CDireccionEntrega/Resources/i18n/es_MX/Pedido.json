@@ -1,0 +1,95 @@
+{
+    "labels": {
+        "Create Pedido": "Crear Pedido"
+    },
+    "fields": {
+        "ordenCompraNumbrer": "Orden de Compra",
+        "ordenCompraPDF": "PDF de Orden de Compra",
+        "entregasParciales": "Acepto Entregas Parciales",
+        "facturacionLocacion": "Locación de Facturación",
+        "monedaPago": "Moneda de Pago",
+        "productoServicio": "Producto o Servicio",
+        "usoCfdi": "Uso de CFDI",
+        "formaPago": "Forma de Pago",
+        "nombBanco": "Nombre del Banco",
+        "noCuenta": "Número de cuenta",
+        "montoTotal": "Cantidad",
+        "montoTotalCurrency": "Monto Total (Moneda)",
+        "montoTotalConverted": "Monto Total (Convertido)",
+        "fechaEntrega": "Fecha de Orden",
+        "name": "Nombre Pedido",
+        "account": "Empresa (División)",
+        "contact": "Contacto(Cliente)",
+        "quote": "Cotización",
+        "comentariosGeneral": "Comentarios Generales del Pedido",
+        "numberPedido": "Número de Pedido",
+        "user": "Consultor asignado",
+        "assignedUser": "Capturado por",
+        "status": "Estatus",
+        "opportunity": "Oportunidad",
+        "referenciaCliente": "Referencia de Cliente",
+        "confirmedBy": "Confirmado por",
+        "facturas": "Facturas",
+        "facturases": "Facturas",
+        "logisticas": "Logistica del envio",
+        "quoter": "Cotización"
+    },
+    "options": {
+        "facturacionLocacion": {
+            "México": "México",
+            "Estados Unidos": "Estados Unidos"
+        },
+        "monedaPago": {
+            "MXN": "MXN",
+            "USD": "USD"
+        },
+        "usoCfdi": {
+            "G01.- Adquisición de mercancias.": "G01.- Adquisición de mercancias.",
+            "G02.- Devoluciones, descuentos o bonificaciones.": "G02.- Devoluciones, descuentos o bonificaciones.",
+            "G03.- Gastos en general.": "G03.- Gastos en general.",
+            "I01.- Construcciones.": "I01.- Construcciones.",
+            "I02.- Mobilario y equipo de oficina por inversiones.": "I02.- Mobilario y equipo de oficina por inversiones.",
+            "I03.- Equipo de transporte.": "I03.- Equipo de transporte.",
+            "I04.- Equipo de computo y accesorios.": "I04.- Equipo de computo y accesorios.",
+            "I05.- Dados, troqueles, moldes, matrices y herramental.": "I05.- Dados, troqueles, moldes, matrices y herramental.",
+            "I06.- Comunicaciones telefónicas.": "I06.- Comunicaciones telefónicas.",
+            "I07.- Comunicaciones satelitales.": "I07.- Comunicaciones satelitales.",
+            "I08.- Otra maquinaria y equipo.": "I08.- Otra maquinaria y equipo.",
+            "D01.- Honorarios médicos, dentales y gastos hospitalarios.": "D01.- Honorarios médicos, dentales y gastos hospitalarios.",
+            "D01.- Gastos médicos por incapacidad o discapacidad.": "D01.- Gastos médicos por incapacidad o discapacidad.",
+            "D03.- Gastos funerales.": "D03.- Gastos funerales.",
+            "D04.- Donativos.": "D04.- Donativos.",
+            "D05.- Intereses reales efectivamente pagados por créditos hipotecarios (casa habitación).": "D05.- Intereses reales efectivamente pagados por créditos hipotecarios (casa habitación).",
+            "D06.- Aportaciones voluntarias al SAR.": "D06.- Aportaciones voluntarias al SAR.",
+            "D07.- Primas por seguros de gastos médicos.": "D07.- Primas por seguros de gastos médicos.",
+            "D08.- Gastos de transportación escolar obligatoria.": "D08.- Gastos de transportación escolar obligatoria.",
+            "D09.- Depósitos en cuentas para el ahorro, primas que tengan como base planes de pensiones.": "D09.- Depósitos en cuentas para el ahorro, primas que tengan como base planes de pensiones.",
+            "D10.- Pagos por servicios educativos (colegiaturas).": "D10.- Pagos por servicios educativos (colegiaturas).",
+            "P01.- Por definir.": "P01.- Por definir."
+        },
+        "formaPago": {
+            "Transferencia Bancaria": "Transferencia Bancaria",
+            "Tarjeta de Crédito": "Tarjeta de Crédito",
+            "Efectivo": "Efectivo",
+            "Cheque": "Cheque"
+        },
+        "status": {
+            "Draft": "Draft",
+            "Revisión": "Revisión",
+            "Completado": "Completado",
+            "Cancelado": "Cancelado"
+        }
+    },
+    "links": {
+        "account": "Facturar a",
+        "contact": "Solicitante (Cliente)",
+        "quote": "Cotización",
+        "user": "Consultor asignado",
+        "opportunity": "Oportunidad",
+        "confirmedBy": "Confirmado por",
+        "facturas": "Facturas",
+        "facturases": "Facturas",
+        "logisticas": "Logistica del envio",
+        "quoter": "Cotización"
+    }
+}

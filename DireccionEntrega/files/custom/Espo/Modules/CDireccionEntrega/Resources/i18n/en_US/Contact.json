@@ -1,0 +1,29 @@
+{
+    "fields": {
+        "pedidos": "Pedidos",
+        "facturas": "Facturas",
+        "facturas1": "Facturas",
+        "cliente": "Cliente",
+        "clientes": "Clientes",
+        "clientess": "Clientes",
+        "clientesss": "Cliente",
+        "razonSocial": "Razón Social",
+        "solicitarCotizaciones": "Solicitar Cotizaciones",
+        "solicitarCotizacion": "Solicitar Cotizacion",
+        "solicitarCotizacions": "Solicitar Cotizacions"
+    },
+    "links": {
+        "pedidos": "Pedidos",
+        "facturas": "Facturas",
+        "facturas1": "Facturas",
+        "servicios": "Servicios",
+        "cliente": "Cliente",
+        "clientes": "Clientes",
+        "clientess": "Clientes",
+        "clientesss": "Cliente",
+        "razonSocial": "Razón Social",
+        "solicitarCotizaciones": "Solicitar Cotizaciones",
+        "solicitarCotizacion": "Solicitar Cotizacion",
+        "solicitarCotizacions": "Solicitar Cotizacions"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "fields": {
+        "address": "Dirección",
+        "diasEntrega": "Dias de Entrega",
+        "logisticas": "envio",
+        "direccionesshippings": "DireccionesExample",
+        "logistica": "Logistica",
+        "direccionesShippings": "Direcciones Shippings",
+        "horaIni": "HoraIni",
+        "horaFini": "HoraFini",
+        "letimer": "Letimer"
+    },
+    "links": {
+        "meetings": "Presentaciones",
+        "calls": "Llamadas",
+        "tasks": "Tareas",
+        "logisticas": "envio",
+        "direccionesshippings": "DireccionesExample",
+        "logistica": "Logistica",
+        "direccionesShippings": "Direcciones Shippings",
+        "servicios": "Servicios"
+    },
+    "labels": {
+        "Create ContactoShipping": "Crear Contacto Shipping"
+    },
+    "options": {
+        "diasEntrega": {
+            "Lunes": "Lunes",
+            "Martes": "Martes",
+            "Miercoles": "Miercoles",
+            "Jueves": "Jueves",
+            "VIernes": "VIernes"
+        }
+    }
+}

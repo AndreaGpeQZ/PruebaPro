@@ -1,0 +1,56 @@
+{
+    "options": {
+        "status": {
+            "New": "Datos Validados",
+            "In Process": "Desea Cotizar",
+            "Converted": "Convertido",
+            "": "Se asigna a un consultor",
+            "Se asigna a un consultor": "Se asigna a un consultor"
+        },
+        "giroEmpresarial": {
+            "Comercio": "Comercio",
+            "Maquiladora": "Maquiladora",
+            "Gobierno": "Gobierno",
+            "Médica": "Médica",
+            "Educación": "Educación",
+            "Otro": "Otro",
+            "Industrial": "Industrial",
+            "Servicios": "Servicios"
+        },
+        "telefonosPrincipales": [],
+        "salutationName": {
+            "": "",
+            "Mr.": "Sr.",
+            "Ms.": "Srta.",
+            "Mrs.": "Sra.",
+            "Dr.": "Dr.",
+            "Lic.": "Lic.",
+            "Ing.": "Ing.",
+            "Gte.": "Gte.",
+            "Arq.": "Arq.",
+            "C.P.": "C.P.",
+            "Cont.": "Cont."
+        }
+    },
+    "fields": {
+        "title": "Puesto",
+        "status": "Estatus",
+        "giroEmpresarial": "Giro Empresarial",
+        "subgiro": "Subgiro",
+        "otroGiro": "Otro Giro",
+        "user": "User",
+        "opportunity": "Opportunity",
+        "emailP": "Correo Electrónico Principal",
+        "phoneP": "Télefono Principal",
+        "telefonosPrincipales": "Telefonos Principales",
+        "contactoAdicional": "Contacto Adicional"
+    },
+    "links": {
+        "user": "User",
+        "opportunity": "Opportunity",
+        "servicios": "Servicios"
+    },
+    "labels": {
+        "Create Lead": "Crear Prospecto"
+    }
+}

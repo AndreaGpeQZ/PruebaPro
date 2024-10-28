@@ -1,0 +1,38 @@
+{
+    "fields": {
+        "assignedUsers": "Usuarios Asignados",
+        "quoteNumber": "No. de cotización",
+        "solicitudNumber": "No. de Solicitud",
+        "quoterId": "UUID de Quoter",
+        "pdf": "Abrir archivo PDF",
+        "estadoatc": "Estado",
+        "webview": "WebView",
+        "descargadirecta": "Descarga Directa",
+        "ganado": "Ganado MXN",
+        "ganadoCurrency": "Ganado (Moneda)",
+        "ganadoConverted": "Ganado (Convertido)",
+        "ganadoUSD": "Ganado USD",
+        "ganadoUSDCurrency": "Ganado USD (Moneda)",
+        "ganadoUSDConverted": "Ganado USD (Convertido)",
+        "pedido1": "Pedido1"
+    },
+    "links": {
+        "assignedUsers": "Usuarios Asignados",
+        "pedido1": "Pedido1"
+    },
+    "options": {
+        "estadoatc": {
+            "Sin definir": "Sin definir",
+            "Ganado": "Ganado",
+            "Perdido": "Perdido",
+            "Pendiente": "Pendiente"
+        },
+        "status": {
+            "pending": "Pendiente",
+            "accepted": "Aceptado",
+            "ordered": "Pedido",
+            "fulfilled": "Entregado",
+            "lost": "Perdido"
+        }
+    }
+}
