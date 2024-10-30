@@ -23,8 +23,8 @@ RUN mkdir /backups
 COPY backup.sh /usr/local/bin/backup.sh
 RUN chmod +x /usr/local/bin/backup.sh
 
-# Configura cron para ejecutar el script a las 9:50 todos los días
-RUN echo "50 9 * * * root /usr/local/bin/backup.sh >> /var/log/cron.log 2>&1" > /etc/cron.d/backup-job \
+# Configura cron para ejecutar el script a las 10:00 todos los días
+RUN echo "0 10 * * * root /usr/local/bin/backup.sh >> /var/log/cron.log 2>&1" > /etc/cron.d/backup-job \
     && chmod 0644 /etc/cron.d/backup-job \
     && crontab /etc/cron.d/backup-job
 
