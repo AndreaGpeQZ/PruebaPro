@@ -14,6 +14,7 @@ RUN chown -R www-data:www-data /var/www/html \
 # Instala cron y otras dependencias necesarias para el backup
 RUN apt-get update && apt-get install -y \
     cron \
+    git \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Crea el directorio para los backups
@@ -32,4 +33,4 @@ RUN echo "0 10 * * * root /usr/local/bin/backup.sh >> /var/log/cron.log 2>&1" > 
 EXPOSE 80
 
 # Inicia cron y el servidor Apache
-CMD ["sh", -c "cron && apache2-foreground"]
+CMD ["sh", "-c", "cron && apache2-foreground"]
