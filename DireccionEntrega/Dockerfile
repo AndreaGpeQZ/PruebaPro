@@ -23,8 +23,10 @@ RUN mkdir /backups
 COPY backup.sh /usr/local/bin/backup.sh
 RUN chmod +x /usr/local/bin/backup.sh
 
-# Configura cron para ejecutar el script a las 12:50 todos los días
-RUN echo "50 12 * * * /usr/local/bin/backup.sh" > /etc/crontabs/root
+# Configura cron para ejecutar el script a las 9:50 todos los días
+RUN echo "50 9 * * * root /usr/local/bin/backup.sh >> /var/log/cron.log 2>&1" > /etc/cron.d/backup-job \
+    && chmod 0644 /etc/cron.d/backup-job \
+    && crontab /etc/cron.d/backup-job
 
 # Expone el puerto 80 para acceder a la aplicación
 EXPOSE 80
